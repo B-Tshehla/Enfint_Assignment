@@ -1,6 +1,6 @@
-## Question2
+# Question2
 
-##Main
+## Main
 * `Shape` Base class
 * `Line` Extend the base class
 * `Point` Extend the base class
@@ -8,4 +8,4 @@
 * `Square` Extend the base class
 * `Rectangle` Extend the base class
 * `Triangle`Extend the base class
-* `Parallelogram` Extende the base class
+* `Parallelogram` Extend the base class
