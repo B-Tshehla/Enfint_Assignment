@@ -10,28 +10,30 @@ public class Main {
         String[] oder = {"First","Second","Third","Fourth","Fifth"};
         int smallest = 99999;
         Integer key;
-        String value;
 
+        // Adding five value pairs
         for (int x = 0; x < 5;++x){
-            numMap.put(rand.nextInt(20),oder[x]);
+            int num =rand.nextInt(20)+1;
+            System.out.println(num);
+            numMap.put(num,oder[x]);
         }
-
+        //Printing the entire Hashmap
         System.out.println(numMap);
-        // Iterating through forEach and
-        // printing the elements
+
+        //Iterating through the Hashmap to find the smallest key
         for (Map.Entry<Integer, String> entry : numMap.entrySet()) {
              key = entry.getKey();
-             value = entry.getValue();
-             if (key < smallest){
+             if (key < smallest) {
                  smallest = key;
              }
-            System.out.println(key + " = " + value);
         }
+        //printing The smallest value pair
+        System.out.println("The value pair with the smallest key:("+smallest+" = "+numMap.get(smallest)+")");
 
-        System.out.println(numMap.get(smallest));
-
+        //Removing the smallest value pair from the list
         numMap.remove(smallest);
 
+        //Printing the entire Hashmap
         System.out.println(numMap);
     }
 }
