@@ -60,49 +60,54 @@ public class Contact {
         String phone;
         String moreNum;
         Phone searched;
-
-        System.out.println("Please select Desired operation:\n1- Add a new contact\n2- Find phone by name");
-        System.out.println("0- To stop the program");
-        select = inputInt.nextInt();
-
-        while (select != 0){
-            if(select == 1){
-                System.out.println("Please enter name of the contact");
-                name = inputString.nextLine();
-                if(CheckContact(name)){
-                    System.out.println("Please enter phone number of the contact");
-                    phone = inputString.nextLine();
-                    obj.add(createContact(name,phone));
-                    System.out.println("Do you want to add more phone numbers for "+ name +" Enter (Y)/(N)");
-                    moreNum = inputString.nextLine();
-                    if (moreNum.equals("Y") || moreNum.equals("y")){
-                        addMoreNum(Objects.requireNonNull(findPhone(name)));
-                    }
-                    else{
-                        System.out.println("Contact Created");
-                    }
-
-                }
-
-            } else if (select == 2) {
-                System.out.println("Enter the name of the contact you are looking for");
-                name = inputString.nextLine();
-                searched = findPhone(name);
-                if (searched != null) {
-                    System.out.println(searched.getName());
-                    for (int x = 0;x<searched.getPhone().size();x++){
-                        System.out.println(searched.getPhone().get(x));
-                    }
-                }
-                else {
-                    System.out.println("Phone contact does not exist");
-                }
-            }
+       try{
             System.out.println("Please select Desired operation:\n1- Add a new contact\n2- Find phone by name");
             System.out.println("0- To stop the program");
             select = inputInt.nextInt();
+
+            while (select != 0){
+                if(select == 1){
+                    System.out.println("Please enter name of the contact");
+                    name = inputString.nextLine();
+                    if(CheckContact(name)){
+                        System.out.println("Please enter phone number of the contact");
+                        phone = inputString.nextLine();
+                        obj.add(createContact(name,phone));
+                        System.out.println("Do you want to add more phone numbers for "+ name +" Enter (Y)/(N)");
+                        moreNum = inputString.nextLine();
+                        if (moreNum.equals("Y") || moreNum.equals("y")){
+                            addMoreNum(Objects.requireNonNull(findPhone(name)));
+                        }
+                        else{
+                            System.out.println("Contact Created");
+                        }
+
+                    }
+
+                } else if (select == 2) {
+                    System.out.println("Enter the name of the contact you are looking for");
+                    name = inputString.nextLine();
+                    searched = findPhone(name);
+                    if (searched != null) {
+                        System.out.println(searched.getName());
+                        for (int x = 0;x<searched.getPhone().size();x++){
+                            System.out.println(searched.getPhone().get(x));
+                        }
+                    }
+                    else {
+                        System.out.println("Phone contact does not exist");
+                    }
+                }
+                System.out.println("Please select Desired operation:\n1- Add a new contact\n2- Find phone by name");
+                System.out.println("0- To stop the program");
+                select = inputInt.nextInt();
+            }
+        }catch (InputMismatchException i){
+            System.out.println("You entered a character while the expected input was an integer");
         }
+
     }
+
 }
 class Phone {
     private final String name;

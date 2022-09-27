@@ -13,7 +13,8 @@ public class Main {
         System.out.println(daysOfTheWeek.WEDNESDAY);
         System.out.println(daysOfTheWeek.THURSDAY);
         System.out.println(daysOfTheWeek.values());
-        System.out.println(num.valueOf("RED"));
+        System.out.println(daysOfTheWeek.ordinal(daysOfTheWeek.FRIDAY));
+
     }
 
 }
@@ -42,11 +43,21 @@ class Enum {
 
         return daysOfTheWeek;
     }
+    public int ordinal(String day){
+        int x = 0;
+        int ordinal = -1;
+        while (x < values().size()) {
+            if(day.equals(values().get(x)))
+            {
+                ordinal = x+1;
+            }
+            x++;
+        }
+        return ordinal;
+    }
 
 }
-enum num{
-    RED,BLUE,GREEN
-}
+
 
 
 
