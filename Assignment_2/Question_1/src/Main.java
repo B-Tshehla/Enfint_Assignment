@@ -1,21 +1,23 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         // Creating hash map
         Map<Integer, String> numMap = new HashMap<>();
+        Set<Integer> randSet = new HashSet<>();
         Random rand = new Random();
         String[] oder = {"First","Second","Third","Fourth","Fifth"};
         int smallest = 99999;
         Integer key;
+        int x = 0;
 
+        while (randSet.size() < 5){
+            randSet.add(rand.nextInt(20));
+        }
         // Adding five value pairs
-        for (int x = 0; x < 5;++x){
-            int num =rand.nextInt(20)+1;
-            System.out.println(num);
-            numMap.put(num,oder[x]);
+        for (Integer num : randSet){
+            numMap.put(num, oder[x]);
+            x++;
         }
         //Printing the entire Hashmap
         System.out.println(numMap);

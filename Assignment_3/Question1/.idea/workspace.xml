@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdcd96f0-6257-4aa4-a747-a28aa38b7930" name="Changes" comment="">
+    <list default="true" id="806a6d27-15e2-47f3-9797-933127ae3921" name="Changes" comment="submit">
+      <change afterPath="$PROJECT_DIR$/../../Assignment_2/Question_3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment_2/Question_3/out/production/Question_3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment_2/Question_3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Question1/ConcatFiles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Question1/ConcatFilesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcatFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcatFilesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignment_2/Question_1/out/production/Question_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment_2/Question_1/out/production/Question_1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Assignment_2/Question_1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment_2/Question_1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment_2/Question_3/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment_2/Question_3/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment_2/Question_3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Folder1/1-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Folder1/1-1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Folder1/Folder2/2-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Folder1/Folder2/2-1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Folder1/Folder2/2-2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Folder1/Folder2/2-2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Question1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Assignment_3/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,10 +34,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="2FO3Syjp407XeAKVpmBUHCD3xMX" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2FUDLiTcfASAs8CeYq4MVIeq7kj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,18 +59,103 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ConcatFilesTest">
+    <configuration name="Question1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ConcatFiles" />
+      <module name="Question1" />
+      <option name="PROGRAM_PARAMETERS" value="Folder1 output.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcatFilesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Question1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConcatFilesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcatFilesTest.ShowIOExceptionCaught" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Question1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConcatFilesTest" />
+      <option name="METHOD_NAME" value="ShowIOExceptionCaught" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcatFilesTest.showExceptionsInMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Question1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConcatFilesTest" />
+      <option name="METHOD_NAME" value="showExceptionsInMain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcatFilesTest.showExceptionsInMainForArguments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Question1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConcatFilesTest" />
+      <option name="METHOD_NAME" value="showExceptionsInMainForArguments" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcatFilesTest.showNoExceptionCaughtOrThrowInMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Question1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConcatFilesTest" />
+      <option name="METHOD_NAME" value="showNoExceptionCaughtOrThrowInMain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConcatFilesTest" />
+        <item itemvalue="JUnit.ConcatFilesTest.ShowIOExceptionCaught" />
+        <item itemvalue="JUnit.ConcatFilesTest.showNoExceptionCaughtOrThrowInMain" />
+        <item itemvalue="JUnit.ConcatFilesTest.showExceptionsInMainForArguments" />
+        <item itemvalue="JUnit.ConcatFilesTest.showExceptionsInMain" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cdcd96f0-6257-4aa4-a747-a28aa38b7930" name="Changes" comment="" />
-      <created>1664349318698</created>
+      <changelist id="806a6d27-15e2-47f3-9797-933127ae3921" name="Changes" comment="" />
+      <created>1664537728804</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1664349318698</updated>
+      <updated>1664537728804</updated>
     </task>
     <servers />
   </component>
@@ -47,5 +169,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="submit" />
+    <option name="LAST_COMMIT_MESSAGE" value="submit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Question1$ConcatFilesTest_ShowFilenameWithFileLink.ic" NAME="ConcatFilesTest.ShowFilenameWithFileLink Coverage Results" MODIFIED="1664612129095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Question1$Question1.ic" NAME="Question1 Coverage Results" MODIFIED="1664612063361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Question1$ConcatFilesTest.ic" NAME="ConcatFilesTest Coverage Results" MODIFIED="1664632133827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
