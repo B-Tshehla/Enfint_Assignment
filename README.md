@@ -3,3 +3,4 @@
 * `Assignment_2` (Collections Assignment)
 * `Assignment_3` (File I/O Assignment)
 * `Assignment_4` (Multithreading Assignment)
+* `stream-tas-2021` (Functional Programming)
